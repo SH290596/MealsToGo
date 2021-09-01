@@ -14,7 +14,7 @@ export default function App() {
           <Text>list</Text>
         </View>
       </SafeAreaView>
-      <ExpoStatusBar style="auot"/>
+      <ExpoStatusBar style="auto"/>
     </>
   );
 }
