@@ -1,10 +1,11 @@
 import React from "react";
 import { Text } from "react-native";
-import { RestaurantsScreen } from "../../features/restaurants/Screens/restaurants.screen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { SafeArea } from "../../components/Utility/safe-area.component";
 import Ionicons from "@expo/vector-icons/Ionicons";
+// import { RetaurantsNavigator } from "./restaurants.navigator";
+import { RestaurantsScreen } from "../../features/restaurants/Screens/restaurants.screen";
 
 const Settings = () => (
   <SafeArea>
